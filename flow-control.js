@@ -68,7 +68,7 @@ function switchAge(age) {
       msg="You have an age";
 
 
-    return console.log(msg);
+    return msg;
   }
 
 }
