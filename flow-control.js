@@ -19,7 +19,7 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-  var msg = 'NO MSG!!!'
+  var msg = "You are not a teenager"
   if(age >= 13 && age <=19){
     msg ='You are a teenager!'
   }
@@ -29,9 +29,7 @@ function ageChecker(age) {
   else if(age>19){
     msg ="You are a grownup"
   }
-  else{
-    msg ="You are not a teenager"
-  }
+  
   return console.log(msg)
 
 }
