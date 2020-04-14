@@ -8,14 +8,14 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-  var msg = 'NO MSG!!!'
+  
   if(age >= 13 && age <=19){
-    msg ='You are a teenager!'
+    return 'You are a teenager!'
   }
   else{
-    msg ="You are not a teenager"
+    return "You are not a teenager"
   }
-  return console.log(msg)
+  
 }
 
 function ageChecker(age) {
