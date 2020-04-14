@@ -59,8 +59,7 @@ function switchAge(age) {
       break;
     default:
       msg = "You have an age"
-      //console.log("You have an age");
-
+      
 
   }
     return msg
