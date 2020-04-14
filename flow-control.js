@@ -58,6 +58,7 @@ function switchAge(age) {
     case 19:
       break;
     default:
+      msg = "You have an age"
       console.log("You have an age");
 
 
