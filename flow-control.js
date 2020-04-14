@@ -1,20 +1,38 @@
 function basicTeenager(age) {
+  var msg = 'NO MSG!!!'
   if(age >= 13 && age <=19){
-    console.log('You are a teenager!')
+    msg ='You are a teenager!'
   }
+  return console.log(msg)
 
 }
 
 function teenager(age) {
+  var msg = 'NO MSG!!!'
   if(age >= 13 && age <=19){
-    console.log('You are a teenager!')
+    msg ='You are a teenager!'
   }
   else{
-    console.log("You are not a teenager")
+    msg ="You are not a teenager"
   }
+  return console.log(msg)
 }
 
 function ageChecker(age) {
+  var msg = 'NO MSG!!!'
+  if(age >= 13 && age <=19){
+    msg ='You are a teenager!'
+  }
+  else if(age<=12){
+    msg ="You are a kid"
+  }
+  else if(age>19){
+    msg ="You are a grownup"
+  }
+  else{
+    msg ="You are not a teenager"
+  }
+  return console.log(msg)
 
 }
 
